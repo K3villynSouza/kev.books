@@ -16,6 +16,7 @@
     display: none;
     position: absolute;
     top: 100%;
+    width: 60vw;
   }
 
   .container__botao:checked ~ .lista-menu {
@@ -27,7 +28,7 @@
     padding: 1em;
     background-color: var(--branco);
   }
-  
+
   .lista-menu__titulo {
     color: var(--laranja);
   }
