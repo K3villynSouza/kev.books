@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+[10:59, 8/7/2024] Kev~🎧: <!DOCTYPE html>
 <html>
 
 <head>
@@ -12,7 +12,7 @@
 <body>
      <header class="cabeçalho">
          <span class="cabeçalho__menu-hamburguer"></span>
-         <img src="img/Frame 143.png" alt="Logo da AluraBooks">
+         <img src="img/Logo.png" alt="Logo da AluraBooks">
          <a href="#"><img src="img/Favoritos.svg" alt="Meus favoritos"></a>
          <a href="#"><img src="img/Compras.svg" alt="Carrinho de compras"></a>
          <a href="#"><img src="img/Usuario.png" alt="Meu perfil"></a>
@@ -22,12 +22,66 @@
 </html>
 <div class="container">
   <input type="checkbox" id="menu" class="container__botao" />
-  <label for="menu">
-    <span class="cabeçalho_menu-hamburguer container_imagem"></span>
-  </label>
-  <img src="Menu.svg" alt="Logo da AluraBooks" class="container__imagem" />
-</div>
+  <la…
+[11:01, 8/7/2024] Kev~🎧: @import url("styles/header.css");
 
+:root {
+    --cor-de-fundo: #EBECEE;
+    --branco: #FFFFFF;
+}
+body {
+    background-color: var(--cor-de-fundo);
+}
+[11:02, 8/7/2024] Kev~🎧: .cabeçalho {
+    background-color: var(--branco);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.container {
+    display: flex;
+    align-items: center;
+}
+.container__imagem {
+    padding: 1em;
+}
+
+.lista-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+  }
+
+  .container__botao:checked ~ .lista-menu {
+    display: block;
+  }
+  
+  .cabeçalho__menu-hamburguer {
+    width: 24px;
+    height: 24px;
+    display: inline-block;
+    background-image: url("Menu.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+[11:57, 8/7/2024] Kev~🎧: <!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AluraBooks</title>
+  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header class="cabeçalho">
+    <div class="container">
+      <input type="checkbox" id="menu" class="container__botao" />
+      <label for="menu">
+        <span class="cabeçalho_menu-hamburguer container_imagem"></span>
+      </label>
 <ul class="lista-menu">
   <li class="lista-menu__titulo">Categorias</li>
   <li class="lista-menu__item">
@@ -46,3 +100,15 @@
     <a href="#" class="lista-menu__link">Design & UX</a>
   </li>
 </ul>
+
+      <img src="img/Logo.svg" alt="Logo da Alurabooks" class="container__imagem">
+    </div>
+    <div class="container">
+      <a href="#"><img src="img/Favoritos.svg" alt="Meus favoritos" class="container__imagem"></a>
+      <a href="#"><img src="img/Compras.svg" alt="Carrinhos de compras" class="container__imagem"></a>
+      <a href="#"><img src="img/Usuário.svg" alt="Meu perfil" class="container__imagem"></a>
+    </div>
+  </header>
+</body>
+
+</html>
