@@ -87,13 +87,13 @@ h1 {
   display: block;
 }
 
-.lista-menu__titulo,
 .lista-menu__item {
   padding: 1em;
 }
 
 .lista-menu__titulo {
   color: var(--laranja);
+  font-weight: 700;
 }
 
 .lista-menu__link {
@@ -104,7 +104,6 @@ h1 {
   text-transform: uppercase;  
 }
 
-  
-
-
-
+.container__botao {
+  display: none;
+}
