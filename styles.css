@@ -25,9 +25,6 @@ h1 {
   top: 100%;
 }
 
-.container__botao:checked ~ .lista-menu {
-  display: block
-}
 .cabeçalho {
   background-color: var(--branco);
   display: flex;
@@ -45,12 +42,6 @@ h1 {
   background-position: center;
 }
 
-.cabeçalho {
-  background-color: var(--branco);
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
 .container__imagem {
   padding: 1em;
 }
