@@ -7,7 +7,7 @@
     background: var(--azul-degrade);
     text-align: center;
     padding: 1em 0;
-}
+}  
 .tópicos__titulo {
     color: var(--branco);
     font-weight: 300;
@@ -29,4 +29,3 @@
     font-size: 14px;
     font-weight: 700;
 }
-        
