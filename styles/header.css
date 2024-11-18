@@ -6,6 +6,7 @@
   background-image: url("../img/Menu.svg");
   background-repeat: no-repeat;
   background-position: center;
+  list-style: none;
 }
 
 .container__botao:checked~.container__rotulo>.cabeçalho__menu-hamburguer {
