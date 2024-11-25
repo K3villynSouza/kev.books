@@ -146,7 +146,7 @@
         background: var(--azul-degrade);
     }
   
-    .lista-menu_item:hover>.lista-menu_link {
+    .lista-menu__item:hover>.lista-menu__link {
         -webkit-text-fill-color: var(--branco);
         text-decoration: none;
     }
