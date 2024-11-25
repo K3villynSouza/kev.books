@@ -8,11 +8,11 @@
     list-style: none;
   }
   
-  .container_botao:checked~.containerrotulo>.cabeçalho_menu-hamburguer {
+  .container__botao:checked~.containerrotulo>.cabeçalho__menu-hamburguer {
     background-image: url("../img/Menu Aberto.png");
   }
   
-  .container_botao:checked~.container_rotulo {
+  .container__botao:checked~.container__rotulo {
     background: var(--azul-degrade);
   }
   
@@ -133,7 +133,7 @@
         display: none;
     }
   
-    .opções_botão:checked~.opçõesrotulo>.opções_item {
+    .opções__botão:checked~.opçõesrotulo>.opções__item {
         background: var(--azul-degrade);
         color: var(--branco);
     }
