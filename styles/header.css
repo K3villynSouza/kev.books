@@ -133,7 +133,7 @@
         display: none;
     }
   
-    .opções__botão:checked~.opçõesrotulo>.opções__item {
+    .opções__botão:checked~.opções__rotulo>.opções__item {
         background: var(--azul-degrade);
         color: var(--branco);
     }
